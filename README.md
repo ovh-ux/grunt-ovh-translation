@@ -1,4 +1,4 @@
-# grunt-ovh-translate
+# grunt-ovh-translation
 
 ![githubbanner](https://user-images.githubusercontent.com/3379410/27423240-3f944bc4-5731-11e7-87bb-3ff603aff8a7.png)
 
@@ -49,15 +49,15 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 
 ### npm
 
-```shell
-npm install grunt-ovh-translate --save-dev
+```
+npm install grunt-ovh-translation --save-dev
 ```
 
 ### Get the sources
 
 ```
-    git clone https://github.com/ovh-ux/grunt-ovh-translate.git
-    cd grunt-ovh-translate
+    git clone https://github.com/ovh-ux/grunt-ovh-translation.git
+    cd grunt-ovh-translation
     npm install
     bower install
 ```
@@ -87,10 +87,10 @@ git reset --hard HEAD
 
 # Related links
 
- * Contribute: https://github.com/ovh-ux/grunt-ovh-translate
- * Report bugs: https://github.com/ovh-ux/grunt-ovh-translate/issues
- * Get latest version: https://github.com/ovh-ux/grunt-ovh-translate
+ * Contribute: https://github.com/ovh-ux/grunt-ovh-translation
+ * Report bugs: https://github.com/ovh-ux/grunt-ovh-translation/issues
+ * Get latest version: https://github.com/ovh-ux/grunt-ovh-translation
 
 # License
 
-See https://github.com/ovh-ux/grunt-ovh-translate/blob/master/LICENSE
+See https://github.com/ovh-ux/grunt-ovh-translation/blob/master/LICENSE
