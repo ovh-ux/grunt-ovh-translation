@@ -89,7 +89,7 @@ git reset --hard HEAD
 
 # Related links
 
- * Contribute: https://github.com/ovh-ux/grunt-ovh-translation
+ * Contribute: https://github.com/ovh-ux/grunt-ovh-translation/CONTRIBUTING.md
  * Report bugs: https://github.com/ovh-ux/grunt-ovh-translation/issues
  * Get latest version: https://github.com/ovh-ux/grunt-ovh-translation
 
