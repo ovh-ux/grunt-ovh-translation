@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations>
+    <translation id="pack_xdsl_service_list">Gestion de votre pack {{packName}}</translation>
+    <translation id="pack_xdsl_service_more_one">{{count}} supplémentaire</translation>
+    <translation id="pack_xdsl_service_more_many">{{count}} supplémentaires</translation>
+    <translation id="pack_xdsl_access">Mes accès</translation>
+    <translation id="pack_xdsl_no_service_available">Aucun service disponible</translation>
+    <translation id="pack_xdsl_avalaibleSlot_0">Vous avez consommé tout vos {{packType}} sur ce pack</translation>
+    <translation id="pack_xdsl_avalaibleSlot_1">{{avalaible}} de disponible</translation>
+    <translation id="pack_xdsl_avalaibleSlot_n">{{avalaible}} de disponibles</translation>
+    <translation id="pack_xdsl_access_services_0">Aucun accès</translation>
+    <translation id="pack_xdsl_access_description">Description</translation>
+    <translation id="pack_xdsl_access_type">Type</translation>
+    <translation id="pack_xdsl_access_accessName">Identifiant</translation>
+    <translation id="pack_xdsl_voipLine_domain">Domaine</translation>
+    <translation id="pack_xdsl_voipLine_billingAccount">Compte</translation>
+    <translation id="pack_xdsl_hubic_domain">Domaine</translation>
+    <translation id="pack_xdsl_hubic_size">Taille</translation>
+    <translation id="xdslAccess">Accès Internet</translation>
+    <translation id="voipLine">Téléphonie</translation>
+    <translation id="domain">Nom de domaine</translation>
+    <translation id="voipEcoFax">Ecofax</translation>
+    <translation id="hubic">Hubic</translation>
+    <translation id="exchangeAccount">Exchange (Account)</translation>
+    <translation id="exchangeLite">Exchange (Lite)</translation>
+    <translation id="siteBuilderStart">Site Builder</translation>
+    <translation id="informations">Informations Générales</translation>
+    <translation id="exchangeIndividual">Exchange (Individual)</translation>
+    <translation id="add">ajouter</translation>
+    <translation id="no_item">aucun élément</translation>
+    <translation id="used">utilisé(s)</translation>
+    <translation id="used_one">{{count}} utilisé</translation>
+    <translation id="xdsl_access_profile_tooltip_interleaved"><b>Interleaved :</b> Profil auto par défaut</translation>
+    <translation id="xdsl_access_profile_tooltip_fast"><b>Fast : </b> Profil auto en fastPath (ping amélioré sans&nbsp;correction d'erreur)</translation>
+    <translation id="xdsl_access_profile_tooltip_ginp"><b>G.INP : </b> Cette extension améliore la correction d’erreur sans affecter la performance de la ligne. Le DSLAM va utiliser le mode de protection (INP, Impulse Noise Protection) contre le bruit.</translation>
+    <translation id="xdsl_access_profile_tooltip_auto"><b>AUTO-&lt;valeur&gt;M :</b> Le DSLAM va synchroniser au maximum sur le débit</translation>
+    <translation id="hello_world">hello&nbsp;world</translation>
+    <translation id="xdsl_access_dslam_an_error_ocurred">[DSLAM] Une erreur est survenue !</translation>
+    <translation id="xdsl_access_profile_doing">Changement de profil en cours</translation>
+
+
+    <translation id="hello_world_again"><a href="http://www.hello.world.com" class="my class">hello world</a></translation>
+    <translation id="pack_xdsl_expired">Pack expiré</translation>
+    <translation id="pack_xdsl_inCreation">Pack en cours de création</translation>
+    <translation id="pack_xdsl_offer_name">Nom de l'offre</translation>
+    <translation id="pack_xdsl_pack_id">Identifiant du pack</translation>
+    <translation id="pack_xdsl_created_date">Date de création</translation>
+    <translation id="pack_xdsl_engaged_date">Engagé jusqu'au</translation>
+    <translation id="pack_xdsl_pack_link_address">Adresse de raccordement</translation>
+
+    <translation id="still_pending">en cours de création</translation>
+    <translation id="pack_xdsl_status">État du pack<p>and here, some HTML</p></translation>
+
+</translations>

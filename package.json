@@ -1,0 +1,26 @@
+{
+  "name": "grunt-ovh-translation",
+  "version": "2.1.1",
+  "description": "Grunt task to convert xml translations into json files",
+  "main": "tasks/ovh-translation.js",
+  "repository": "ovh-ux/grunt-ovh-translation.git",
+  "license": "BSD-3-Clause",
+  "author": "OVH SAS",
+  "keywords": [
+    "grunt"
+  ],
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "node-xml-lite": "0.0.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.0"
+  },
+  "author": "ovh",
+  "license": "ISC"
+}
