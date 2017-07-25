@@ -128,7 +128,7 @@ module.exports = function(grunt) {
                             var col = parseInt(matcher[2], 10);
                             var lines = strToParse.split("\n");
                             pointingError = "\n     " + lines[line];
-                            pointingError += "\n" + Array(col+6).join("-") + "^\nLine: " + (line + 1) + "\tCol: " + (col + 1) + "\n";
+                            pointingError += "\n" + new Array(col+6).join("-") + "^\nLine: " + (line + 1) + "\tCol: " + (col + 1) + "\n";
                         }
                         return grunt.fail.warn("Error while parsing XML (file: " + xmlFiles[i] + ").\n" + (pointingError || e));
                     }
