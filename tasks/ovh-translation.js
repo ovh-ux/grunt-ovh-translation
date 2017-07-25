@@ -29,7 +29,7 @@ module.exports = function(grunt) {
                 }
             }
             if (changes) {
-                grunt.log.ok('Extending translation ' + destFilename + ' with ' + path.basename(srcFilename));
+                grunt.verbose.ok('Extending translation ' + destFilename + ' with ' + path.basename(srcFilename));
                 grunt.file.write(destFilename, JSON.stringify(dest));
             }
             return changes;
@@ -39,13 +39,13 @@ module.exports = function(grunt) {
          * Generate JSON translation files from XML
          */
         var task_generateTranslation = function() {
-            grunt.log.subhead('Writing translations => ' + self.target);
+            grunt.verbose.subhead('Writing translations => ' + self.target);
             self.files.forEach(function (d) {
 
                 var jsonFile = translationParser.changeExtension(d.dest, 'json');
                 var xmlFiles = d.src;
 
-                grunt.log.ok('Writing translation ' + jsonFile);
+                grunt.verbose.ok('Writing translation ' + jsonFile);
 
                 var str = '';
                 for (var i=0; i<xmlFiles.length; i++) {
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
          * field extendFrom must by an array of languages (ie. ['en_GB', 'fr_FR'])
          */
         var task_extendTranslation = function() {
-            grunt.log.subhead('Extending translations => ' + self.target);
+            grunt.verbose.subhead('Extending translations => ' + self.target);
             self.files.forEach(function (d) {
                 var jsonFile = translationParser.changeExtension(d.dest, 'json');
                 if (d.extendFrom) {
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
                         if (grunt.file.exists(sourceFile)) {
                             extendJson(jsonFile, sourceFile);
                         } else {
-                            grunt.log.error(lang + ' could not be found in ' + sourceFile);
+                            grunt.verbose.error(lang + ' could not be found in ' + sourceFile);
                         }
                     });
                 }
