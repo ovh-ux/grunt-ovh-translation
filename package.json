@@ -1,6 +1,6 @@
 {
   "name": "grunt-ovh-translation",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Grunt task to convert xml translations into json files",
   "main": "tasks/ovh-translation.js",
   "repository": "ovh-ux/grunt-ovh-translation.git",
