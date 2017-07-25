@@ -4,6 +4,8 @@ module.exports = function(grunt) {
 
     // Project configuration.
     grunt.initConfig({
+        pkg: grunt.file.readJSON("package.json"),
+        name: grunt.file.readJSON("package.json").name || "grunt-ovh-translation",
         jshint: {
             all: [
                 'Gruntfile.js',
