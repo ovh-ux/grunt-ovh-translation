@@ -6,13 +6,6 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
         name: grunt.file.readJSON("package.json").name || "grunt-ovh-translation",
-        jshint: {
-            all: [
-                'Gruntfile.js',
-                'tasks/**/*.js',
-                'test/**/*.js'
-            ]
-        },
         nodeunit: {
             tests: ['test/test_*.js']
         },
@@ -29,12 +22,10 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-bump');
     grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
     grunt.registerTask('test', [
-        'jshint',
         'nodeunit'
     ]);
 
